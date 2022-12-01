@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas ADA</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Zilla+Slab:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="assets/adalogo.png" class="logoada">
+    <div class="textoheader">
+      <h1>Buscaminas</h1>
+      <h2>Ada School</h2>
+    </div>
+  </header>
+
+  <section class="botonesjuego">
+    <button><a class="linkboton" href="index.html">Regresar</a></button>
+  </section>
+
+  <section class="reglas">
+    <h1>Reglas Buscaminas</h1>
+    <p>El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina.</p>
+    <p>Algunas casillas tienen un número, el cual indica la cantidad de minas que hay en las casillas circundantes. Así,
+      si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o
+      borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas
+      vecinas tiene mina y éstas se descubren automáticamente.</p>
+    <p>Si se descubre una casilla con una mina se pierde la partida.</p>
+    <p>Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir la que están
+      cerca.</p>
+    <h3>¡Así es como jugamos a Buscaminas!</h3>
+    <p>Fuente información <a href="https://es.wikipedia.org/wiki/Buscaminas">Wikipedia</a></p>
+  </section>
+
+  <footer>
+    <h5>Desarrollado por <a class="linkFooter" href="http://lloyka.me/" target="_blank">Lloyka Pérez</a> durante el
+      curso de
+      Fundamentos de programación web.</h5>
+    <h5>Dictado por <a class="linkFooter" href="https://ada-school.org/" target="_blank">Ada School</a> - 2022</h5>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

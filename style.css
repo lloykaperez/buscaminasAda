@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Concert One', cursive;
+    background: #FFC107;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  
+  .logoada {
+    height: 6rem;
+  }
+  
+  .textoheader{
+    margin-left: 1rem;
+  }
+  
+  h1 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .botonesjuego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  button {
+    background-color: #009688;
+    color: #ffffff;
+    font-family: 'Concert One', cursive;
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 1rem;
+    width: 10rem;
+  }
+  
+  .linkboton {
+    color: #ffffff;
+  }
+  
+  footer {
+    text-align: center;
+    color: #212121;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #757575;
+  }
+  
+  a:hover {
+    color: #009688;
+  }
+  
+  .reglas {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .findepartida {
+    text-align: center;
+  }
+
+  /* juego */
+
+  #tablero {
+    width: 400px;
+    height: 400px;
+    border: 10px solid darkgrey;
+    background-color: lightgrey;
+
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #tablero div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clickEnTablero {
+    background: darkgray;
+  }
+
+  .n1 {
+    color: blue;
+  }
+
+  .n2 {
+    color: green;
+  }
+
+  .n3 {
+    color: red;
+  }
+
+  #bottonBandera {
+    font-size: 30px;
+  }
